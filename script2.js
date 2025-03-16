@@ -8,10 +8,12 @@ async function choose() {
         const name = meteodata.name
         const country = meteodata.sys.country
         const tempC = (meteodata.main.temp - 273.15).toFixed(2);
+        const Vent = (meteodata.wind.speed *3.6).toFixed(1);
 
         document.getElementById("Results").innerHTML = `
         <h2> ${name}, ${country} </h2>
-        <p>température : ${tempC}°C</p>
+        <p>Température : ${tempC}°C</p>
+        <p>Vent : ${Vent}Km/h</p>
         `;
 
         if (!meteoresponse.ok) {
@@ -21,4 +23,5 @@ async function choose() {
 
     } catch (error) {
     console.error("Erreur :", error)};
+
 }
