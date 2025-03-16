@@ -17,9 +17,9 @@
     width: 50%;
     height: 50%;
     border-radius: 30px;
-    background: orange;
-    box-shadow: 15px 15px 30px rgb(25, 25, 25),
-                -15px -15px 30px rgb(60, 60, 60);
+    background: rgb(235, 152, 0);
+    box-shadow: 15px 15px 30px rgb(230, 122, 0),
+                -15px -15px 30px rgb(253, 179, 67);
 
 }
 
