@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 
 .Center {
-    font-family: "Roboto Mono", monospace;
-    color: white;
+    font-family: "Oswald", sans-serif;
     max-width: fit-content;
     max-height: fit-content;
     margin-left: auto;
@@ -14,18 +14,25 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 50%;
-    height: 50%;
-    border-radius: 30px;
-    background: rgb(235, 152, 0);
-    box-shadow: 15px 15px 30px rgb(230, 122, 0),
-                -15px -15px 30px rgb(253, 179, 67);
+    background-color: rgb(93, 97, 96);
+    box-shadow: 1px 1px 76px 19px rgba(0,0,0,0.68);
+    display: flex;
+    
+    padding: 4%;
 
+    border-radius: 10%;
+    margin-top: 5%;
 }
 
+#Results{
+    padding: 4%;
+    border-radius: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: rgb(104, 109, 108);
+    box-shadow: 1px 1px 76px 19px rgba(0,0,0,0.68);
+}
+body{
+background-color: rgb(70, 73, 72);
 
-
-html{
-
-    background-color: white;
 }
